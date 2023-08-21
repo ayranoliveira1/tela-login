@@ -12,8 +12,9 @@ section {
     align-items: center;
     height: 100vh;
     width: 100%;
-    background-color: #22f34f;
-}
+    background: url(imagens/fundo.png) no-repeat center;
+    background-size: cover;
+}    
 
 .conteiner {
     height: 450px;
@@ -22,7 +23,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: transparent;
+    border: 2px solid #fafafa80;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
 }
 
 h2 {
@@ -52,7 +56,7 @@ h2 {
 
 input:focus ~label,
 input:valid {
-    top: -10px;
+    top: -5px;
 }
 
 .cont-form input {
@@ -71,6 +75,7 @@ ion-icon {
     top: -5px;
     font-size: 1.2em;
     color: white;
+    font-weight: 600;
 }
 
 .check {
@@ -80,6 +85,7 @@ ion-icon {
 }
 
 button {
+    margin-top: 5px;
     width: 100%;
     padding: 8px;
     border-radius: 20px;
