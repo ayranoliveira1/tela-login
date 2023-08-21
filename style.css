@@ -19,10 +19,13 @@ section {
     position: relative;
     height: 450px;
     width: 400px;
-    background-color: red;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #fafafa80;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
 }
 
 h2 {
