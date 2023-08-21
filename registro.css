@@ -56,7 +56,7 @@ h2 {
 
 input:focus ~label,
 input:valid {
-    top: -5px;
+    top: -1px;
 }
 
 .cont-form input {
