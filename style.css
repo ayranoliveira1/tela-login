@@ -92,3 +92,19 @@ button {
     cursor: pointer;
     font-weight: 600;
 }
+
+.registre {
+    text-align: center;
+    margin: 25px 0 10px;
+    color: white;
+    font-size: .9em;
+}
+
+.registre p a {
+    color: white;
+    text-decoration: none;
+}
+
+.registre p a:hover {
+    text-decoration: underline;
+}
