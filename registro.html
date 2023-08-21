@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Registre-se</title>
+    <link rel="stylesheet" href="registro.css">
 </head>
 <body>
     <section>
         <div class="conteiner">
             <div class="form">
                 <form action="" method="post">
-                    <h2>Login</h2>
+                    <h2>Registre-se</h2>
+                    <div class="cont-form">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <input type="text" name="nome" id="nome">
+                        <label for="nome">Nome</label>
+                    </div>
                     <div class="cont-form">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" name="em" id="em">
-                        <label for="em">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="email">Email</label>
                     </div>
                     <div class="cont-form">
                         <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" name="se" id="se">
-                        <label for="se">Senha</label>
+                        <input type="password" name="senha" id="senha">
+                        <label for="senha">Senha</label>
                     </div>
                     <div class="check">
-                        <label for="ch"><input type="checkbox" name="ch" id="ch"> Lembre de mim</label>
+                        <input type="checkbox" name="check" id="check">
+                        <label for="check">Li e aceito os termos de uso</label>
                     </div>
-                    <button>Login</button>
-                    <div class="registre">
-                        <p>Ainda não tem conta <a href="registro.html">Registre-se</a></p>
-                    </div>
+                    <button>Registrar</button>
                 </form>
             </div>
         </div>
