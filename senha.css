@@ -130,9 +130,28 @@ form {
     outline: none;
     color: white;
     border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+.voltar a {
+    color: white;
+    text-decoration: none;
 }
 
 .voltar:hover {
     background-color: rgba(255, 255, 255, 0.278);
     color: black;
+}
+
+.voltar a:hover {
+    color: black;
+}
+
+.criar a {
+    color: white;
+    text-decoration: none;
+}
+
+.criar a:hover {
+    text-decoration: underline;
 }
