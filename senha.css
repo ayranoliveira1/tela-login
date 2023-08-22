@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #14f214;
+}
+
+.conteiner {
+    display: flex;
+    height: 500px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.icone { 
+    margin: auto;
+    background-color: transparent;
+    font-size: 5em;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #fafafa80;
+}
