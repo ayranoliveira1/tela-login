@@ -12,7 +12,8 @@ section {
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background-color: #14f214;
+    background: url(imagens/fundo.png) no-repeat center;
+    background-size: cover;
 }
 
 
@@ -22,7 +23,10 @@ section {
     width: 400px;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: transparent;
+    border: 2px solid #fafafa80;
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
 }
 
 .icone { 
@@ -107,11 +111,28 @@ form {
 .ou {
     text-align: center;
     color: #aaa6a6e8;
-    margin: 30px 0 15px;
+    margin: 20px 0 15px;
 }
 
 .criar {
     text-align: center;
     font-size: .9em;
     color: white;
+}
+
+.voltar {
+    position: absolute;
+    bottom: -2px;
+    width: 400px;
+    padding: 15px 0 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.voltar:hover {
+    background-color: rgba(255, 255, 255, 0.278);
+    color: black;
 }
