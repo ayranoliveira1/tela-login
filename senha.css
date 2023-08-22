@@ -15,9 +15,10 @@ section {
     background-color: #14f214;
 }
 
+
 .conteiner {
     display: flex;
-    height: 500px;
+    height: 550px;
     width: 400px;
     justify-content: center;
     align-items: center;
@@ -27,12 +28,90 @@ section {
 .icone { 
     margin: auto;
     background-color: transparent;
-    font-size: 5em;
+    font-size: 4.5em;
     width: 100px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    border: 2px solid #fafafa80;
+    border: 4px solid #fafafa80;
+    color: white;
+} 
+
+.titulo { 
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    color: white;
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 0 10px;
+}
+
+form {
+    width: 300px;
+}
+
+.form input {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    border-bottom: 2px solid white;
+}
+
+.enviar {
+    margin: 10px 0 10px 2px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    font-weight: 600;
+}
+.enviar:hover {
+    color: #625f5fc5;
+}
+
+.link {
+    text-align: center;
+    font-size: .8em;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+.ou {
+    text-align: center;
+    color: #aaa6a6e8;
+    margin: 30px 0 15px;
+}
+
+.criar {
+    text-align: center;
+    font-size: .9em;
+    color: white;
 }
