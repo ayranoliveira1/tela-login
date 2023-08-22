@@ -121,3 +121,11 @@ button {
 .registre p a:hover {
     text-decoration: underline;
 }
+
+.senhaes a{
+    text-decoration: none;
+}
+
+.senhaes a:hover {
+    text-decoration: underline;
+}
