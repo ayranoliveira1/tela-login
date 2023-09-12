@@ -54,8 +54,8 @@ h2 {
     transition: .4s;
 }
 
-input:focus ~label,
-input:valid {
+input:focus ~ label,
+input:valid{
     top: -1px;
 }
 
@@ -66,6 +66,8 @@ input:valid {
     border: none;
     outline: none;
     padding: 0 35px 0 5px;
+    font-size: 1em;
+    color: white;
 
 }
 
