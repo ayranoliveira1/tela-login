@@ -1,157 +1,156 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-    background: url(imagens/fundo.png) no-repeat center;
-    background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   background: url(imagens/fundo.png) no-repeat center;
+   background-size: cover;
 }
-
 
 .conteiner {
-    display: flex;
-    height: 550px;
-    width: 400px;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    border: 2px solid #fafafa80;
-    backdrop-filter: blur(8px);
-    border-radius: 20px;
+   display: flex;
+   height: 550px;
+   width: 400px;
+   justify-content: center;
+   align-items: center;
+   background-color: transparent;
+   border: 2px solid #fafafa80;
+   backdrop-filter: blur(8px);
+   border-radius: 20px;
 }
 
-.icone { 
-    margin: auto;
-    background-color: transparent;
-    font-size: 4.5em;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    border: 4px solid #fafafa80;
-    color: white;
-} 
+.icone {
+   margin: auto;
+   background-color: transparent;
+   font-size: 4.5em;
+   width: 100px;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50%;
+   border: 4px solid #fafafa80;
+   color: white;
+}
 
-.titulo { 
-    display: flex;
-    justify-content: center;
-    color: white;
-    margin: 20px 0;
-    font-size: 1.1em;
+.titulo {
+   display: flex;
+   justify-content: center;
+   color: white;
+   margin: 20px 0;
+   font-size: 1.1em;
 }
 
 .text {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    color: white;
-    margin: 10px 0px;
-    text-align: justify;
+   display: flex;
+   justify-content: center;
+   width: 300px;
+   color: white;
+   margin: 10px 0px;
+   text-align: justify;
 }
 
-.form{
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    margin: 0 0 10px;
+.form {
+   display: flex;
+   justify-content: center;
+   width: 300px;
+   margin: 0 0 10px;
 }
 
 form {
-    width: 300px;
+   width: 300px;
 }
 
 .form input {
-    width: 100%;
-    height: 30px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    padding-left: 5px;
-    border-bottom: 2px solid white;
+   width: 100%;
+   height: 30px;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   padding-left: 5px;
+   border-bottom: 2px solid white;
 }
 
 .enviar {
-    margin: 10px 0 10px 2px;
-    width: 100%;
-    padding: 8px;
-    border-radius: 20px;
-    border: none;
-    background-color: white;
-    font-weight: 600;
+   margin: 10px 0 10px 2px;
+   width: 100%;
+   padding: 8px;
+   border-radius: 20px;
+   border: none;
+   background-color: white;
+   font-weight: 600;
 }
 .enviar:hover {
-    color: #625f5fc5;
+   color: #625f5fc5;
 }
 
 .link {
-    text-align: center;
-    font-size: .8em;
+   text-align: center;
+   font-size: 0.8em;
 }
 
 .link a {
-    text-decoration: none;
-    color: white;
+   text-decoration: none;
+   color: white;
 }
 
 .link a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
 .ou {
-    text-align: center;
-    color: #aaa6a6e8;
-    margin: 20px 0 15px;
+   text-align: center;
+   color: #aaa6a6e8;
+   margin: 20px 0 15px;
 }
 
 .criar {
-    text-align: center;
-    font-size: .9em;
-    color: white;
+   text-align: center;
+   font-size: 0.9em;
+   color: white;
 }
 
 .voltar {
-    position: absolute;
-    bottom: -2px;
-    width: 400px;
-    padding: 15px 0 15px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: white;
-    border-radius: 0 0 20px 20px;
-    text-align: center;
+   position: absolute;
+   bottom: -2px;
+   width: 400px;
+   padding: 15px 0 15px;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   color: white;
+   border-radius: 0 0 20px 20px;
+   text-align: center;
 }
 
 .voltar a {
-    color: white;
-    text-decoration: none;
+   color: white;
+   text-decoration: none;
 }
 
 .voltar:hover {
-    background-color: rgba(255, 255, 255, 0.278);
-    color: black;
+   background-color: rgba(255, 255, 255, 0.278);
+   color: black;
 }
 
 .voltar a:hover {
-    color: black;
+   color: black;
 }
 
 .criar a {
-    color: white;
-    text-decoration: none;
+   color: white;
+   text-decoration: none;
 }
 
 .criar a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }

@@ -1,130 +1,132 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100%;
-    background: url(imagens/fundo.png) no-repeat center;
-    background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   background: url(imagens/fundo.png) no-repeat center;
+   background-size: cover;
 }
 
 .conteiner {
-    position: relative;
-    height: 450px;
-    width: 400px;
-    background-color: transparent;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #fafafa80;
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
+   position: relative;
+   height: 450px;
+   max-width: 400px;
+   width: 80%;
+   background-color: transparent;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid #fafafa80;
+   border-radius: 20px;
+   backdrop-filter: blur(10px);
 }
 
 h2 {
-    color: white;
-    font-size: 2em;
-    text-align: center;
+   color: white;
+   font-size: 2em;
+   text-align: center;
 }
 
 .cont-form {
-    position: relative;
-    width: 310px;
-    margin: 30px 0;
-    border-bottom: 2px solid white;
+   position: relative;
+   min-width: 310px;
+   margin: 30px 0;
+   border-bottom: 2px solid white;
 }
 
-.cont-form label{
-    position: absolute;
-    top: 0%;
-    left: 5%;
-    width: 310px;
-    margin: 30px 0;
-    transform: translateY(-50%);
-    pointer-events: none;
-    color: white;
-    font-size: 1em;
-    transition: .4s;
+.cont-form label {
+   position: absolute;
+   top: 0%;
+   left: 5%;
+   max-width: 310px;
+   width: 80%;
+   margin: 30px 0;
+   transform: translateY(-50%);
+   pointer-events: none;
+   color: white;
+   font-size: 1em;
+   transition: 0.4s;
 }
 
 input:focus ~ label,
-input:invalid ~ label{
-    top: -30px;
+input:invalid ~ label {
+   top: -30px;
 }
 
 .cont-form input {
-    width: 100%;
-    height: 50px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    padding: 0 35px 0 5px;
-    font-size: 1em;
-    color: white;
+   width: 100%;
+   height: 50px;
+   background-color: transparent;
+   border: none;
+   outline: none;
+   padding: 0 35px 0 5px;
+   font-size: 1em;
+   color: white;
 }
 
 ion-icon {
-    position: absolute;
-    right: 8px;
-    color: white;
-    top: 25px;
-    font-size: 1.2em;
+   position: absolute;
+   right: 8px;
+   color: white;
+   top: 25px;
+   font-size: 1.2em;
 }
 
 .check {
-    position: relative;
-    display: flex;
-    margin: -15px 0px 15px;
-    font-size: .9em;
-    color: white;
+   position: relative;
+   display: flex;
+   margin: -15px 0px 15px;
+   font-size: 0.9em;
+   color: white;
 }
 
 .check a {
-    position: absolute;
-    right: 0px;
-    color: white;
-    font-size: .9em;
+   position: absolute;
+   right: 0px;
+   color: white;
+   font-size: 0.9em;
 }
 
 button {
-    width: 100%;
-    padding: 8px;
-    border-radius: 40px;
-    background-color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-weight: 600;
+   width: 100%;
+   padding: 8px;
+   border-radius: 40px;
+   background-color: white;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   font-weight: 600;
 }
 
 .registre {
-    text-align: center;
-    margin: 25px 0 10px;
-    color: white;
-    font-size: .9em;
+   text-align: center;
+   margin: 25px 0 10px;
+   color: white;
+   font-size: 0.9em;
 }
 
 .registre p a {
-    color: white;
-    text-decoration: none;
+   color: white;
+   text-decoration: none;
 }
 
 .registre p a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
 
-.senhaes a{
-    text-decoration: none;
+.senhaes a {
+   text-decoration: none;
 }
 
 .senhaes a:hover {
-    text-decoration: underline;
+   text-decoration: underline;
 }
